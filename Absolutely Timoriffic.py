@@ -20,7 +20,7 @@ for item in Pdkp:
 for item in Pname:
     Pname_list.append(item.text)
 
-#Building and array and datatable
+#Building an array and datatable
 Final_Array = []
 
 for Playername, Playerdkp in zip(Pname_list, Pdkp_list):
